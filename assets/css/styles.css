@@ -176,9 +176,8 @@ button:hover {
 /*FOOTER*/
 footer {
     text-align: center;
-    display: grid;
+    display: flex;
     height: 60vh;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 2fr));
     background-color: #1d804a;
 }
 
@@ -196,14 +195,14 @@ footer {
 .contact li {
     margin-top: 1px;
     list-style: none;
-    line-height: 0;
+    line-height: 1.4;
     text-align: center;
-    font-size: 0.75em;
-    padding: 15px;
+    font-size: 0.7em;
+    padding: 5px;
 }
 
 .map {
-    height: 30vh;
+    height: 100%;
     justify-self: flex-end;
     width: 100%;
 }
