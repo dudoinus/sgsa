@@ -176,13 +176,13 @@ button:hover {
 /*FOOTER*/
 @media (orientation: landscape) {
   footer {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
 @media (orientation: portrait) {
   footer {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
